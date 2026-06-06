@@ -1,44 +1,17 @@
 {
   "id": "foundry-mcp-bridge",
   "title": "Foundry MCP Bridge",
-  "description": "Connect Foundry VTT to AI models through MCP protocol. Enable AI-powered actor creation, intelligent compendium search, campaign analysis, and interactive dice roll coordination. Supports Claude, local LLMs, and future AI models with comprehensive GM-only security.",
+  "description": "Foundry MCP Bridge",
   "version": "0.8.3",
-  "compatibility": {
-    "minimum": "13",
-    "verified": "14",
-    "maximum": "14"
-  },
-  "authors": [
-    {
-      "name": "Adam Dooley",
-      "email": "adambriandooley@gmail.com",
-      "url": "https://github.com/adambdooley"
-    }
-  ],
+  "compatibility": { "minimum": "13", "verified": "14", "maximum": "14" },
+  "authors": [{ "name": "Adam Dooley", "url": "https://github.com/adambdooley" }],
   "url": "https://github.com/adambdooley/foundry-vtt-mcp",
-  "bugs": "https://github.com/adambdooley/foundry-vtt-mcp/issues",
-  "changelog": "https://github.com/adambdooley/foundry-vtt-mcp/releases",
-  "readme": "https://github.com/adambdooley/foundry-vtt-mcp/blob/master/README.md",
-  "license": "https://github.com/adambdooley/foundry-vtt-mcp/blob/master/LICENSE",
   "esmodules": ["dist/main.js"],
   "styles": ["styles/module.css", "styles/enhanced-creature-index.css"],
-  "languages": [
-    {
-      "lang": "en",
-      "name": "English",
-      "path": "lang/en.json"
-    }
-  ],
+  "languages": [{ "lang": "en", "name": "English", "path": "lang/en.json" }],
   "socket": true,
   "manifest": "https://raw.githubusercontent.com/punnaphobchor/licathia-mcp/main/module.json",
-  "download": "https://raw.githubusercontent.com/punnaphobchor/licathia-mcp/main/foundry-mcp-bridge.zip",
+  "download": "https://github.com/punnaphobchor/licathia-mcp/releases/download/v1/foundry-mcp-bridge.zip",
   "protected": false,
-  "coreTranslation": false,
-  "library": false,
-  "flags": {
-    "hotReload": {
-      "extensions": ["css", "hbs", "json"],
-      "paths": ["scripts", "styles", "templates", "lang"]
-    }
-  }
+  "library": false
 }
